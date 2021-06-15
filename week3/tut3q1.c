@@ -22,4 +22,20 @@ void main(){
     ci = yp - mi*xp;
     printf("\nThe perpendicular line is: y = %2.3fx + %2.1f", mi, ci);
 
+/*
+    INITIALISE m1 c1 m2 c3 mi ci xp yp
+    READ m1, c1
+    PRINT y = m1x + c1
+    READ xp yp
+    PRINT  point P (xp,yp)
+
+    m2 = m1
+    c2 = yp -(m2*xp)
+    PRINT parrallel line y = m2 x+ c2
+
+    mi = -1/m1
+    ci = yp -mi*xp
+    PRINT intercept line
+*/
+
 }
